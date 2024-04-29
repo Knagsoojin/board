@@ -1,0 +1,1 @@
+{"version":3,"file":"board.entity.js","sourceRoot":"","sources":["../../src/board/board.entity.ts"],"names":[],"mappings":";;;;;;;;;;;;AAAA,qCAAiE;AAG1D,IAAM,MAAM,GAAZ,MAAM,MAAM;CASlB,CAAA;AATY,wBAAM;AAEjB;IADC,IAAA,gCAAsB,GAAE;;wCACR;AAGjB;IADC,IAAA,gBAAM,GAAE;;qCACK;AAGd;IADC,IAAA,gBAAM,GAAE;;sCACM;iBARJ,MAAM;IADlB,IAAA,gBAAM,EAAC,EAAE,IAAI,EAAE,OAAO,EAAE,CAAC;GACb,MAAM,CASlB"}
