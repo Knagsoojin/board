@@ -1,0 +1,74 @@
+@font-face {
+  font-family: "KCCChassam";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/KCCChassam.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: KCCChassam;
+}
+
+main,
+header {
+  text-align: center;
+}
+
+header {
+  font-size: 20px;
+  margin-bottom: 5%;
+}
+
+#app {
+}
+
+#home {
+  text-decoration: none;
+  color: rgb(213, 124, 139);
+}
+
+input {
+  width: 350px;
+  height: 25px;
+  background-color: rgb(255, 255, 255);
+  outline: none;
+  /* border-radius: 5px; */
+  border-width: 0 0 1px;
+}
+
+textarea {
+  background-color: rgb(255, 255, 235);
+  border: none;
+}
+
+#detail {
+  margin-top: 1%;
+  /* font-size: 50px; */
+}
+
+#board {
+}
+
+#complete {
+  width: 50px;
+  height: 30px;
+  background-color: rgb(225, 245, 220);
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+#cancel {
+  width: 50px;
+  height: 30px;
+  background-color: rgb(219, 219, 219);
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+}

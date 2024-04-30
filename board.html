@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <link rel="stylesheet" href="./board.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div id="app">
+        <a href="./home.html" id="home"><h1>{{message}}</h1></a>
+      </div>
+    </header>
+    <main>
+      <div id="title">
+        <input type="text" placeholder="제목을 입력해주세요!" />
+      </div>
+      <div id="detail">
+        <textarea name="BOARD" id="board" cols="50" rows="20" placeholder="자유롭게 작성해보세요!"></textarea>
+      </div>
+      <div>
+        <a href="./home.html"><button id="cancel">취소</button></a>
+        <button id="complete">등록</button>
+      </div>
+    </main>
+    <footer>
+      <p>이메일 : sooooziny@naver.com</p>
+    </footer>
+    <script>
+      var app = new Vue({
+        el: "#app",
+        data: {
+          message: "게시판",
+        },
+      });
+    </script>
+  </body>
+</html>
